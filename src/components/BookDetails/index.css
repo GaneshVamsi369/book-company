@@ -1,0 +1,18 @@
+.fullclass{
+    padding: 30px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fullclass img{
+    height: 50vh;
+    width: 350px;
+}
+.orangered{
+    color: rgb(0, 174, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+.fullclass p{
+    font-weight: bold;
+}

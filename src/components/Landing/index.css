@@ -1,0 +1,42 @@
+.bg{
+    background-image: linear-gradient(to bottom right,orange,yellow,orange);
+    min-height: 100vh;
+}
+.body{
+    padding: 10px 140px;
+}
+.intro{
+    font-size: 30px;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 20px 0px;
+    text-align: center;
+}
+.bookhead{
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+.bookpara{
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    font-size: 20px;
+}
+.landingbtn{
+    color: #fff;
+    background-color: orangered;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+@media screen and (max-width: 992px){
+    .body{
+        padding: 10px 40px;
+    }
+    .bookhead,.bookpara{
+        width: 100%;
+    }
+}

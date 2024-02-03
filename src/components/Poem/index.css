@@ -1,0 +1,35 @@
+.formcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.form{
+    padding: 20px;
+    border-radius: 10px;
+    width: 40vw;
+    background-color: #fff;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+input{
+    border: 1px solid #181515;
+    border-radius: 6px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.btn{
+    color: #fff;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+.btnclass{
+    text-align: center;
+}
