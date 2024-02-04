@@ -1,5 +1,5 @@
 .bg{
-    background-image: linear-gradient(to bottom right,orange,yellow,orange);
+    background-image: linear-gradient(to bottom right,#d9d4ca,#ffff8b,#78c8ca);
     min-height: 100vh;
 }
 .body{
@@ -10,7 +10,6 @@
     font-family:  sans-serif;
     font-weight: bold;
     font-style: oblique;
-    margin: 20px 0px;
     text-align: center;
 }
 .bookhead{
@@ -18,7 +17,6 @@
     font-family: 'Courier New', Courier, monospace;
     width: 60%;
     font-weight: bold;
-    margin: 8px 0px;
 }
 .bookpara{
     font-family: 'Times New Roman', Times, serif;
