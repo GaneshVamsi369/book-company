@@ -35,6 +35,9 @@
     list-style-type: none;
     padding-left: 0px;
 }
+.successcon img{
+    width: 20vw;
+}
 .successcon li{
     width: 30%;
     padding: 10px;
@@ -49,5 +52,10 @@
     }
     .successcon li{
         width: 45%;
+    }
+}
+@media screen and (max-width: 480px){
+    .successcon li{
+        width: 90%;
     }
 }

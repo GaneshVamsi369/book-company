@@ -3,6 +3,7 @@ import {BsSearch} from 'react-icons/bs'
 import Loader from 'react-loader-spinner'
 import {Link} from 'react-router-dom'
 import Header from '../Header'
+import Footer from '../Footer'
 import './index.css'
 
 class Marketplace extends Component{
@@ -109,6 +110,7 @@ class Marketplace extends Component{
                 </div>
                 {this.getlist()}
               </div>
+            <Footer/>
             </div>
         )
     }

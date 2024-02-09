@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import Header from '../Header'
+import Footer from '../Footer'
 import './index.css'
 
 class Landing extends Component{
@@ -44,6 +45,7 @@ class Landing extends Component{
                 </p>
                 <button className='landingbtn' type='button' onClick={this.renderpoem}>CLICK HERE</button>
             </div>
+            <Footer/>
             </div>
         )
     }

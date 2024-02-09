@@ -7,7 +7,7 @@
 .form{
     padding: 20px;
     border-radius: 10px;
-    width: 40vw;
+    width: 50vw;
     background-color: #fff;
 
 }
@@ -32,4 +32,9 @@ input{
 }
 .btnclass{
     text-align: center;
+}
+@media screen and (max-width: 992px){
+    .form{
+        width: 80vw;
+    }
 }
