@@ -53,9 +53,15 @@
     .successcon li{
         width: 45%;
     }
+    .successcon img{
+        width: 40vw;
+    }
 }
 @media screen and (max-width: 480px){
     .successcon li{
         width: 90%;
+    }
+    .successcon img{
+        width: 60vw;
     }
 }
